@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body> 
+    <header class = "flex items-center w-[960px] h-[60px] mx-auto" >
+        <h1 class ="w-[120px] h-[40px] ml-[76px] mt-[10px] mb-[10px]"><a href="#"><img src="Profile/logo.svg" alt="プロフィールロゴ"></a></h1>
+        <nav class="ml-auto">
+            <ul class ="flex justify-center items-center text-sm w-[149px] h-[41px] mr-[76px] mt-[10px] mb-[10px]">
+                <li class="mr-[30px] hover:text-gray-200"><a href="#about">About</a></li>
+                <li class="hover:text-gray-200"><a href="#bicycle">Bicycle</a></li>
+            </ul>
+            
+        </nav>
+    </header>
+    <main>
+        <img class="object-cover w-full h-[600px] mw-[1920px] " src="Profile/mainvisual.jpg" alt="自転車">  
+     
+        <section class="mx-auto mt-[86px] text-center">
+            <h2 id="about" class="text-4xl font-bold border-b pb-2 inline-block border-black">About</h2>
+
+                <div class="w-full mt-[80px] flex mx-auto justify-center">
+                <img class="rounded-full w-[100px] h-[100px]" src="Profile/about.jpg" alt="自己紹介">
+                <div class="flex flex-col ml-[30px] text-left ">   
+
+                <h3 class="text-lg font-bold">KAKEMU MIYAICHI</h3>
+                    <p class="mt-[10px]">テキストテキストテキストテキストテキストテキストテキスト</p>
+                    <p>テキストテキストテキストテキストテキストテキストテキスト</p>
+                    <p>テキストテキストテキストテキストテキストテキストテキスト</p>
+        </div>       
+        </div>
+        
+     </section>   
+          
+     <section class="mx-auto mt-[86px] text-center">
+        <h2 id="bicycle" class="text-4xl font-bold border-b pb-2 inline-block border-black">Bicycle</h2>
+        <ul class="flex mt-[65px] items-center justify-center">
+            <li class="flex flex-col items-center"><img class="w-[258px] h-[171px] mr-[16px]" src="Profile/bicycle1.jpg" alt="1">
+            <p class="font-bold text-lg mt-[10px]">タイトルタイトル</p>
+            <p class="mt-[10px]">テキストテキストテキスト</p>
+            </li>
+            <li><img class="w-[258px] h-[171px] mr-[16px]" src="Profile/bicycle2.jpg" alt="2">
+                <p class="font-bold text-lg mt-[10px]">タイトルタイトル</p>
+                <p class="mt-[10px]">テキストテキストテキスト</p>
+            </li>
+            <li><img class="w-[258px] h-[171px]" src="Profile/bicycle3.jpg" alt="">
+                <p class="font-bold text-lg mt-[10px]">タイトルタイトル</p>
+                <p class="mt-[10px]">テキストテキストテキスト</p>
+            </li>               
+            
+        </ul>
+        
+    </section>
+    </main>
+
+    <footer class="text-center text-xs mt-[132px]">
+        © 2020 Profile
+    </footer>
+</body>
+</html>
