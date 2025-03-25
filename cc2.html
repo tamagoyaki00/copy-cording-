@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Work - Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header class="flex w-[960px] h-[270px] items-center ml-auto mr-auto">
+        <h1 class="ml-[76px]"><a href="#"><img src="My Work - Portfolio/logo.svg" alt="ロゴ"></a></h1>
+        <nav class="ml-auto">
+            <ul class="flex justify-end text-sm">
+                <li class="pr-[25px]"><a href="#about">About</a></li>
+                <li class="pr-[25px]"><a href="#works">Works</a></li>
+                <li class="pr-[25px]"><a href="#news">News</a></li>
+                <li class="pr-[25px]"><a href="#contact">Contact</a></li>
+                <a href="https://www.instagram.com/"><img class="w-[20px] t-[20px] mr-[76px]" src="My Work - Portfolio/icon-instagram.png" alt="instagramロゴ"></a>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <img class="w-full object-cover h-[420px] max-w-[1920px]" src="My Work - Portfolio/mainvisual-pc.jpg" alt="メイン画像1">
+    <section class="w-[960px] mx-auto px-[4%]">
+        <h2 id="about" class="text-3xl text-center mt-[80px] font-bold">About</h2>
+        <ul class="mt-[50px]">
+            <li>Xxxxx Ashley</li>
+            <li class="mt-[30px]">2th Floor xxxxx Building x-x-x Nishiazabu, Minato-ku, Tokyo 106-0031 Japan</li>
+            <li> tel: 000-0000-0000</li>
+            <li>url: www.xxxxxx.jp</li>
+            <li>mail: xxx@xxxxxx.jp</li>
+        </ul>
+            <p class="mt-[30px]">プロフィールテキストテキストテキストテキストテキストテキストテキストテキストテキストスト テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+    </section>
+    <section class="w-[960px] mx-auto px-[4%]">
+        <h2 id="works" class="text-3xl text-center mt-[120px] font-bold mb-[80px]">Works</h2>
+        <ul class="grid grid-cols-3 gap-[30px]">
+            <li><img class="w-[250px] h-[163px]" src="My Work - Portfolio/works1.jpg" alt="1"></li>
+            <li><img class="w-[250px] h-[163px]" src="My Work - Portfolio/works2.jpg" alt="2"></li>
+            <li><img class="w-[250px] h-[163px]" src="My Work - Portfolio/works3.jpg" alt="3"></li>
+            <li><img class="w-[250px] h-[163px]" src="My Work - Portfolio/works4.jpg" alt="4"></li>
+            <li><img class="w-[250px] h-[163px]" src="My Work - Portfolio/works5.jpg" alt="5"></li>
+            <li><img class="w-[250px] h-[163px]" src="My Work - Portfolio/works6.jpg" alt="6"></li>
+        </ul>
+        
+    </section>
+    <section class="w-[960px] mx-auto px-[4%]">
+        <h2 id="news" class="text-3xl text-center mt-[120px] font-bold mb-[80px]">News</h2>
+
+        <dl>
+            <div class=" flex border-t border-b border-gray-300">
+                <dt class="w-1/3 m-[10px]">2020.XX.XX</dt>
+                <dd class="w-2/3 m-[10px]">デザイン雑誌「ＸＸＸＸＸＸ Vol.11』に掲載していただきました。</dd>
+            </div>
+            <div class=" flex border-b border-gray-300">
+                <dt class="w-1/3 m-[10px]">2020.XX.XX</dt>
+                <dd class="w-2/3 m-[10px]">ＸＸ月ＸＸ日から写真集「ＸＸＸＸＸＸＸ」の販売を開始します。</dd>
+            </div>
+            <div class=" flex border-b border-gray-300">
+                <dt class="w-1/3 m-[10px]">2019.XX.XX</dt>
+                <dd class="w-2/3 m-[10px]">【イベント開催のお知らせ】テキストテキストテキストテキストテキストテキストテキスト</dd>
+            </div>
+            <div class=" flex border-b border-gray-300">
+                <dt class="w-1/3 m-[10px]">2019.XX.XX</dt>
+                <dd class="w-2/3 m-[10px]">デザイン雑誌「ＸＸＸＸＸＸ Vol.10』に掲載していただきました。</dd>
+            </div>
+            <div class=" flex border-b border-gray-300">
+                <dt class="w-1/3 m-[10px]">2019.XX.XX</dt>
+                <dd class="w-2/3 m-[10px]">【個展開催のお知らせ】テキストテキストテキストテキストテキストテキストテキスト</dd>
+            </div>
+        </dl>
+    </section>
+
+    <section class="w-[960px] mx-auto px-[4%]">
+        <h2 id="contact" class="text-3xl text-center mt-[120px] font-bold mb-[80px]">Contact</h2>
+        
+        <form action="#">
+            <dl>
+                <div class="flex gap-x-4 mb-[10px]">
+                    <dt class="w-1/6"><label for="name">NAME</label></dt>
+                    <dd class="w-5/6 border border-gray-300 p-[10px] w-full"><input type="text" name="name" id="name"></dd>
+                </div>
+                <div class="flex gap-x-4 mb-[10px]">
+                    <dt class="w-1/6"><label for="e-mail">E-mail</label></dt>
+                    <dd class="w-5/6 border border-gray-300 p-[10px] w-full"><input type="email" name="e-mail" id="e-mail"></dd>
+                </div>
+                <div class="flex gap-x-4">
+                    <dt class="w-1/6"><label for="message">MESSAGE</label></dt>
+                    <dd class="w-5/6 border border-gray-300 p-[10px] w-full overflow-auto resize-y"><textarea name="message" id="message"></textarea></dd>
+                </div>
+                <div class="flex justify-center mt-4">
+                <button class="items-center justify-center p-[15px] w-[200px] border border-black bg-black text-white hover:text-black hover:bg-white" type="submit">送信</button>
+                </div>
+            </dl>
+        </form>
+
+
+    </section>
+    </main>
+
+
+
+    <footer>
+        <div class="flex justify-center items-center mt-[120px] bg-black h-[32px] w-full">
+            <p class="text-white text-xs">© 2020 My Work</p>
+        </div>
+    </footer>
+</body>
+</html>
